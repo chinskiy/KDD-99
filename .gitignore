@@ -2,5 +2,5 @@
 __pycache__/
 
 # dataset
-kddcup.data_10_percent_corrected
 kddcup.data
+kddcup.data_10_percent
