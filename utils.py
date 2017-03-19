@@ -23,3 +23,5 @@ traffic_features = ["count", "srv_count", "serror_rate", "srv_serror_rate",
                     "dst_host_srv_diff_host_rate", "dst_host_serror_rate",
                     "dst_host_srv_serror_rate", "dst_host_rerror_rate",
                     "dst_host_srv_rerror_rate"]
+
+my_colors = ['b', 'r', 'g', 'y', 'c', 'm', 'k', 'pink', 'indigo', 'crimson', 'gray']
