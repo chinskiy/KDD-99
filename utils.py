@@ -14,6 +14,7 @@ names = ["duration", "protocol_type", "service", "flag", "src_bytes",
 
 categorical_names = ['protocol_type', 'service', 'flag']
 label_names = ['label', 'label_binary_num', 'label_four', 'label_four_num']
+names_without_changes = ['num_outbound_cmds', 'is_host_login']
 
 label_to_four_attack_class = {'back.': 'DOS',
                               'land.': 'DOS',
