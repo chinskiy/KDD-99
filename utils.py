@@ -16,6 +16,11 @@ categorical_names = ['protocol_type', 'service', 'flag']
 label_names = ['label', 'label_binary_num', 'label_four', 'label_four_num']
 names_without_changes = ['num_outbound_cmds', 'is_host_login']
 
+names_to_normalize = ["duration", "src_bytes", "dst_bytes", "wrong_fragment",
+                      "urgent", "hot", "num_failed_logins", "num_compromised",
+                      "num_root", "num_file_creations", "num_shells",
+                      "num_access_files", "num_outbound_cmds"]
+
 label_to_four_attack_class = {'back.': 'DOS',
                               'land.': 'DOS',
                               'neptune.': 'DOS',
