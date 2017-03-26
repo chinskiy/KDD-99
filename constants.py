@@ -13,7 +13,11 @@ names = ["duration", "protocol_type", "service", "flag", "src_bytes",
          "dst_host_srv_rerror_rate", "label"]
 
 categorical_names = ['protocol_type', 'service', 'flag']
+
+categorical_names_num = ['protocol_type_num', 'service_num', 'flag_num']
+
 label_names = ['label', 'label_binary_num', 'label_four', 'label_four_num']
+
 names_without_changes = ['num_outbound_cmds', 'is_host_login']
 
 names_to_normalize = ["duration", "src_bytes", "dst_bytes", "wrong_fragment",
