@@ -1,6 +1,8 @@
 .ipynb_checkpoints/
 __pycache__/
 
+*.pyc
+
 # dataset
 kddcup.data
 kddcup.data_10_percent
